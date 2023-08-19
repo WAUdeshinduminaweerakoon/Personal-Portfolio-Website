@@ -28,4 +28,55 @@
     --smaller-font-size: 14px;
     --tiny-font-size: 12px;
 
+    /*----------------Font Weight ------------------*/
+    --weight-400: 400;
+    --weight-500: 500;
+    --weight-600: 600;
+    --weight-700: 700;
+    --weight-800: 800;
+
+
+}
+*/---------------------BASE ------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body,
+input,
+textarea{
+    font-family: var(--body-font);
+    font-size: var(--nomal-font-size);
+    font-weight: var(--weight-500)
+}
+body{
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+h1,
+h2,
+h3,
+h4{
+    color: var(--title-color);
+    font-family: var(--second-font);
+    font-weight: var(--weight-700);
+}
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+button,
+input,
+textare{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+img{
+    max-width: 100%;
 }
