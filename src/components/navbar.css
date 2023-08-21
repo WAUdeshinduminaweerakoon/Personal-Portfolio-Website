@@ -1,11 +1,15 @@
 .nav__menu{
-    background-color: var(--first-color);
+    /* background-color: var(--first-color); */
     position: fixed;
     inset-block: 0;
-    left: 0;
+    left: -100%;
     background-color: var(--container-color);
     width: 100%;
     padding: 60px 30px;
+    transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+.show-menu{
+    left:0;
 }
 .nav__link{
     display: flex;
@@ -17,8 +21,33 @@
 .nav__icon,
 .nav__name{
     color: var(--title-color);
-    font-size: 20px;
+    font-size: 24px;
 }
 .nav__name{
     font-weight: var(--weigth-500);
+}
+.active-nav .nav__icon,
+.active-nav .nav__name{
+    color: var(--first-color);
+
+}
+.nav__toggle{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--container-color);
+    padding: 20px 10px; 
+}
+
+.nav__toggle span{
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--title-color);
+    margin-bottom: 5px;
+     
 }
