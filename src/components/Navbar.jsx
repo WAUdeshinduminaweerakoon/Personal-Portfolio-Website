@@ -16,7 +16,7 @@ const Navbar = () => {
                     <NavLink to={path} className={({isActive})=>
                     isActive ?'nav__link active-nav' : 'nav__link'
                     }
-                    nClick = {()=> setShowMenu(!showMenu)}
+                    onClick = {()=> setShowMenu(!showMenu)}
                     >
                       {icon}
                       <h3 className="nav__name">{name}</h3>
