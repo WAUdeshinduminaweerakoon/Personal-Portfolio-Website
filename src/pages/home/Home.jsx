@@ -1,5 +1,5 @@
 import React from 'react' ;
-import Profile from "../../assets/home.jpg";
+import Profile from "../../assets/home1.jpg";
 import { Link } from 'react-router-dom';
 import {FaArrowRight} from 'react-icons/fa';
 import "./home.css";
@@ -25,6 +25,10 @@ const Home = () => {
 
           </Link>
         </div>
+      </div>
+
+      <div className="color__block">
+        
       </div>
     </section>
   )
