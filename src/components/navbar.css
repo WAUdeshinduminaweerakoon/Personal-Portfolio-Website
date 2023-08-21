@@ -2,7 +2,7 @@
     /* background-color: var(--first-color); */
     position: fixed;
     inset-block: 0;
-    left: -100%;
+    left: -110%;
     background-color: var(--container-color);
     width: 100%;
     padding: 60px 30px;
@@ -50,4 +50,31 @@
     background-color: var(--title-color);
     margin-bottom: 5px;
      
+}
+.animate-toggle span:first-child{
+    transform: rotate(45deg) translate(6px, 4px);
+}
+.animate-toggle span:nth-child(2){
+    display: none;
+}
+.animate-toggle span:last-child{
+    transform: rotate(-45deg) translate(1px, 1px);
+}
+@media screen and (min-width : 1024px){
+    .nav__menu{
+        all: unset;
+    }
+
+    .nav__toggle{
+        display: none;
+    }
+    .nav{
+        position: fixed;
+        inset-block: 0;
+        right: 30px;
+        display: flex;
+        align-items: center;
+        /* background-color: var(--first-color); */
+    }
+   
 }

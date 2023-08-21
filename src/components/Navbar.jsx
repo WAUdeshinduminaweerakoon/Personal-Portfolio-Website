@@ -13,8 +13,11 @@ const Navbar = () => {
               {links.map(({name, icon, path}, index)=>{
                 return(
                   <li className="nav__item" key ={index }>
-                    <NavLink to={path} className={({isActive})=>isActive ?
-                    'nav__link active-nav' : 'nav__link'}>
+                    <NavLink to={path} className={({isActive})=>
+                    isActive ?'nav__link active-nav' : 'nav__link'
+                    }
+                    nClick = {()=> setShowMenu(!showMenu)}
+                    >
                       {icon}
                       <h3 className="nav__name">{name}</h3>
                     </NavLink>
@@ -23,7 +26,7 @@ const Navbar = () => {
               })}
             </ul>
         </div>
-        <div className={`${showMenu ? 'nav__toggle animate-toggle' : 'nav__toggle'}`} onClick={()=>setShowMenu(!showMenu)}>
+        <div className={`${showMenu ? 'nav__toggle animate-toggle' : 'nav__toggle  '}`} onClick={()=>setShowMenu(!showMenu)}>
           <span></span>
           <span></span>
           <span></span>
