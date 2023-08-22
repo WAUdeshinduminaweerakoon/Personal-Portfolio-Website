@@ -1,5 +1,6 @@
 import React from 'react'
 import "./educationAndSkills.css"
+import Skills from '../../components/Skills'
 
 
 const EducationAndSkills = () => {
@@ -15,7 +16,7 @@ const EducationAndSkills = () => {
         <section className='Skills'>
             <h3 className="section__subtitle subtitle__centre">My Skills</h3> 
             <div className="skills__container grid">
-                
+                <Skills/>
             </div>
         </section>
       </main>

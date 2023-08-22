@@ -212,50 +212,46 @@ import {
     {
       id: 1,
       title: 'Html',
-      percentage: '25',
+      percentage: '80',
     },
-  
     {
       id: 2,
       title: 'Javascript',
-      percentage: '89',
+      percentage: '50',
     },
-  
     {
       id: 3,
       title: 'Css',
       percentage: '70',
     },
-  
     {
       id: 4,
-      title: 'Php',
-      percentage: '66',
+      title: 'Java',
+      percentage: '60',
     },
-  
     {
       id: 5,
-      title: 'Wordpress',
-      percentage: '95',
-    },
-  
+      title: 'Php',
+      percentage: '25',
+    }, 
     {
       id: 6,
-      title: 'Jquery',
-      percentage: '50',
-    },
-  
-    {
-      id: 7,
-      title: 'Angular',
-      percentage: '65',
-    },
-  
-    {
-      id: 8,
       title: 'React',
       percentage: '45',
     },
+  ];
+  export const skillsDb=[
+    {
+      id: 6,
+      title: 'React',
+      percentage: '45',
+    },
+    {
+      id: 6,
+      title: 'React',
+      percentage: '45',
+    },
+
   ];
   
   export const project = [
