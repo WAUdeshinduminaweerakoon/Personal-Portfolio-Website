@@ -2,4 +2,46 @@
     font-size: var(--h3-font-size);
     font-weight: var(--weight-600);
     margin-bottom:20px;
+    
 }
+.separator{
+    border-top: 1px solid var(--border-color);
+    max-width: 40%;
+    margin:72px auto 56px;
+}
+.subtitle__centre{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.skills__container{
+    /* grid-template-columns: repet(4 ,1fr); */
+    justify-items: center;
+}
+.progress__line{
+    width: 800px;
+    height: 10px;
+
+}
+.ProgressBar-path{
+    stroke: var(--first-color) !important;
+    stroke-linecap: butt !important;
+
+}
+.ProgressBar-trail{
+    stroke: var(--container-color) !important;
+}
+.ProgressBar-text{
+    fill: var(--title-color) !important;
+    font-family: var(--second-font);
+    font-size: var(--large-font-size)!important;
+
+}
+.skills__title{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--weight-400);
+    text-align: center;
+    margin-top: 24px;
+
+}
+

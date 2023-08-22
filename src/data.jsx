@@ -208,7 +208,7 @@ import {
     },
   ];
   
-  export const skills = [
+  export const languageSkills = [
     {
       id: 1,
       title: 'Html',
@@ -234,20 +234,34 @@ import {
       title: 'Php',
       percentage: '25',
     }, 
-    {
-      id: 6,
-      title: 'React',
-      percentage: '45',
-    },
+    
   ];
-  export const skillsDb=[
+  export const dataBaseSkills=[
     {
-      id: 6,
-      title: 'React',
+      id: 1,
+      title: 'MySqL',
+      percentage: '50',
+    },
+    {
+      id: 2,
+      title: 'MongooDb',
+      percentage: '45',
+    },
+
+  ];
+  export const frameworksToolsSkills=[
+    {
+      id: 1,
+      title: 'Spring Boot',
+      percentage: '50',
+    },
+    {
+      id: 2,
+      title: 'VCS(Git)',
       percentage: '45',
     },
     {
-      id: 6,
+      id: 3,
       title: 'React',
       percentage: '45',
     },

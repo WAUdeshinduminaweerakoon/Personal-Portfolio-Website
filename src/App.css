@@ -94,6 +94,7 @@ img{
 }
 .section{
     padding-block: 70px;
+    margin-bottom: 10px;
 }
 .section__title{
     font-size: var(--big-font-size);
