@@ -91,7 +91,7 @@ import {
     {
       id: 6,
       title: 'Address : ',
-      description: 'No 121, Mathugama road, Pilaminawaththa,Dodangoda',
+      description: 'No 121,<br/>&emsp;&emsp;Mathugama road,<br/>&emsp;&emsp;Pilaminawaththa,<br/>&emsp;&emsp;Dodangoda,<br/>&emsp;&emsp;Kaluthara',
     },
   
     {
@@ -122,27 +122,27 @@ import {
   export const stats = [
     {
       id: 1,
-      no: '12+',
+      no: '1+',
       title: 'Years of <br /> Experience',
     },
   
     {
       id: 2,
-      no: '97+',
+      no: '3+',
       title: 'Completed <br /> Projects',
     },
   
     {
       id: 3,
-      no: '81+',
+      no: '+',
       title: 'Happy <br /> Customers',
     },
   
-    {
-      id: 4,
-      no: '53+',
-      title: ' Awards <br /> Won',
-    },
+    // {
+    //   id: 4,
+    //   no: '53+',
+    //   title: ' Awards <br /> Won',
+    // },
   ];
   
   export const resume = [
