@@ -6,6 +6,7 @@ import {
     FaBriefcase,
     FaGraduationCap,
     FaCode,
+    FaSchool,
   } from 'react-icons/fa';
   import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
   
@@ -41,16 +42,22 @@ import {
       icon: <FaUser className='nav__icon' />,
       path: '/about',
     },
-  
     {
       id: 3,
+      name: 'Education\xa0&\xa0Skills',
+      icon: <FaSchool className='nav__icon' />,
+      path: '/educationAndSkills',
+    },
+  
+    {
+      id: 4,
       name: 'Project',
       icon: <FaFolderOpen className='nav__icon' />,
       path: '/project',
     },
   
     {
-      id: 4,
+      id: 5,
       name: 'Contact',
       icon: <FaEnvelopeOpen className='nav__icon' />,
       path: '/contact',
