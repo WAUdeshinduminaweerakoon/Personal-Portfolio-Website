@@ -153,58 +153,35 @@ import {
   ];
   
   export const resume = [
-    {
+   
+  
+      {
       id: 1,
-      category: 'experience',
-      icon: <FaBriefcase />,
-      year: '2018 - PRESENT',
-      title: 'Web Developer <span> Envato </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2021 - PRESENT',
+      title: 'Bsc(Hons)Software Engineering <span>University of Kelaniya </span>',
+      desc: 'Major in Net-Centric Application Development, MobilComputing Application Development,Business Engineering',
     },
   
     {
       id: 2,
-      category: 'experience',
-      icon: <FaBriefcase />,
-      year: '2013 - 2018',
-      title: 'UI/UX Designer <span> Themeforest </span>',
-      desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+      category: 'education',
+      icon: <FaGraduationCap />,
+      year: '2019',
+      title: 'GCE A/L <span> Dodamgoda Miriswaththa National School</span>',
+      desc: 'combine Mathematics: B,  Physics: C,  Chemistry: A',
+
+    
     },
   
     {
       id: 3,
-      category: 'experience',
-      icon: <FaBriefcase />,
-      year: '2005 - 2013',
-      title: 'Consultant <span> Videohive </span>',
-      desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-    },
-  
-    {
-      id: 4,
       category: 'education',
       icon: <FaGraduationCap />,
-      year: '2015',
-      title: 'Engineering Degree <span> Oxford University </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
-    },
-  
-    {
-      id: 5,
-      category: 'education',
-      icon: <FaGraduationCap />,
-      year: '2012',
-      title: 'Master Degree <span> KIEV University </span>',
-      desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-    },
-  
-    {
-      id: 6,
-      category: 'education',
-      icon: <FaGraduationCap />,
-      year: '2009',
-      title: 'Bachelor Degree <span> Tunis High School </span>',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+      year: '2014',
+      title: 'GCE O/L <span> Dodamgoda Miriswaththa National School </span>',
+      desc: ' 5As, 3Bs and 1Ss',
     },
   ];
   
