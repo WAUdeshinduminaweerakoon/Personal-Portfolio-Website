@@ -3,7 +3,7 @@ import {
     FaUser,
     FaFolderOpen,
     FaEnvelopeOpen,
-    FaBriefcase,
+    // FaBriefcase,
     FaGraduationCap,
     FaCode,
     FaSchool,

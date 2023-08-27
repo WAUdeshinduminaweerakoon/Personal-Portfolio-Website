@@ -42,6 +42,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    z-index: 0;
+
 
 }
 body,
@@ -49,7 +51,8 @@ input,
 textarea{
     font-family: var(--body-font);
     font-size: var(--nomal-font-size);
-    font-weight: var(--weight-500)
+    font-weight: var(--weight-500);
+    
 }
 body{
     background-color: var(--body-color);
@@ -87,6 +90,7 @@ img{
     /* background-color: var(--first-color); */
     max-width: 1140px;
     margin-inline: auto;
+    padding-inline: 15px;
 }
 .grid{
     display: grid;

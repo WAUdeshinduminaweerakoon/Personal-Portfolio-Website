@@ -3,6 +3,7 @@
 .info__list,
 .stats{
     grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
 }
 .info__{
    row-gap: 20px;
