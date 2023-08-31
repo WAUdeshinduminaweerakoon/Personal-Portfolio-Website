@@ -1,15 +1,27 @@
-import React from 'react';
+// import React from 'react';
+import React, {useState} from 'react';
 import Clase from "../assets/close.svg";
+import "../pages/project/project.css";
+
+
 
 const ProjectItem = ({img, title, details}) => {
+  const [modal, setModal] = useState(false);
+  const toggleModal  = ()=>{
+    setModal(!modal);
+  };
   return (
     <div className='project__item'>
       <img src={img} alt="" className="project__img" />
-      <div className='project__hover'>
+
+      <div className='project__hover' onClick={toggleModal}>
         <h3 className="project__title">{title}</h3>
 
       </div>
-      <div className='project__modal'>
+             
+      
+      {modal&&(
+        <div className='project__modal'>
         <div className="project__modal-content">  
           <img src={Clase} alt="" className="modal__close" />
           <h3 className='modal__title'>{title}</h3>
@@ -18,17 +30,25 @@ const ProjectItem = ({img, title, details}) => {
               return(
                 <li className="modal__item" key={index}>
                   <span className="item__icon">{icon}</span>
+                  <div>
+                    <span className="item__title">{title}</span>
+                    <span className="item__details">{desc}</span>
+                  </div>
                 </li>
 
               )
              })}
           </ul>
+
+          <img src={img} alt="" className="modal__img" />
         </div>
 
       </div>
 
+      )}
+
     </div>
-  )
-}
+  );
+};
 
 export default ProjectItem

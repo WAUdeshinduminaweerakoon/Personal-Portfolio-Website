@@ -1,8 +1,51 @@
-.portfolio__container{
+.project__container{
     display: grid;
 }
-.portfolio__container{
+.project__container{
     font-size: var(--h3-font-size);
     font-weight: var(--weight-600);
     margin-bottom:20px;
 }
+
+
+/*                ------------------------------------------            */
+ .project__container{
+    grid-template-columns: repeat(3, 1fr);
+ }
+ .project__item{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden; 
+    cursor: pointer;
+    margin: 10px;
+ }
+ .project__img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+ }
+ .project__hover{
+    background-color: var(--first-color);
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    /* margin: 10px; */
+ }
+ .project__title{
+    color: var(--text-white);
+    font-size: var(--lage-font-size);
+
+ }
+
+
+
+
+
+/*
+
+.project__modal{
+    position: fixed;
+    inset: 0;
+    background-color: hsla(0, 0%, 0%, 0.7);
+} */
