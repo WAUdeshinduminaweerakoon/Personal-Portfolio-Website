@@ -11,6 +11,8 @@
 /*                ------------------------------------------            */
  .project__container{
     grid-template-columns: repeat(3, 1fr);
+    margin-right: 30px;
+    
  }
  .project__item{
     position: relative;
@@ -23,6 +25,7 @@
     height: 250px;
     width: 100%;
     object-fit: cover;
+    vertical-align: middle;
  }
  .project__hover{
     background-color: var(--first-color);
@@ -31,11 +34,25 @@
     display: grid;
     place-items: center;
     /* margin: 10px; */
+    opacity: 0;
+    transition: all 0.5s ease;
  }
+
+.project__item:hover .project__hover{
+    opacity: 1;
+
+}
+
  .project__title{
     color: var(--text-white);
     font-size: var(--lage-font-size);
+    font-weight: var(--weight-600);
+    transform: translateY(-20px);
+    transition: all 0.5s ease;
 
+ }
+ .project__item:hover .project__title{
+    transform: translateY(0);
  }
 
 
