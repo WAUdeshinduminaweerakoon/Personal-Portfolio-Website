@@ -23,7 +23,11 @@ const ProjectItem = ({img, title, details}) => {
       {modal&&(
         <div className='project__modal'>
         <div className="project__modal-content">  
-          <img src={Clase} alt="" className="modal__close" />
+          <img src={Clase} alt="" 
+           className="modal__close" 
+           onClick={toggleModal}
+           />
+
           <h3 className='modal__title'>{title}</h3>
           <ul className="modal__list grid">
              {details.map(({icon, title,desc}, index)=>{
