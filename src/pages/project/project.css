@@ -4,7 +4,7 @@
 .project__container{
     font-size: var(--h3-font-size);
     font-weight: var(--weight-600);
-    margin-bottom:20px;
+    margin-bottom:100px;
 }
 
 
@@ -54,8 +54,51 @@
  .project__item:hover .project__title{
     transform: translateY(0);
  }
+.project__modal{
+   position: fixed;
+   inset: 0;
+   background-color: hsla(0, 0%, 0%, 0.7);
+   z-index: 1000;
+   display:grid;
+   place-items: center;
+   padding: 15px;
+}
+
+.project__modal-content{
+   background-color: var(--container-color);
+   max-width:650px;
+   width: 100%;
+   padding: 32px;
+   border-radius: 10px;
+   position: relative;
+}
+
+.modal__close{
+   position: absolute;
+   top: -3.5px;
+   right: -8.5%;
+   width: 50px;
+   height: 50px;
+   filter:invert(0.8);
+}
+.modal__title{
+   text-align: center;
+   color: var(--first-color);
+   font-size: var(--h2-font-size);
+   letter-spacing: 2px;
+   margin-bottom: 24px;
+}
+.modal__list{
+   grid-template-columns: repeat(2,1fr);
+   row-gap: 10px;
+   margin-bottom: 24px;
+}
 
 
+.modal__img{
+   width: 100%;
+   height: 350px;
+}
 
 
 
