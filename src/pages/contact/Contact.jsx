@@ -41,8 +41,65 @@ const Contact = () => {
               </div>
             </div>
           </div>
+          <div className='contact__socials'>
+            <a href="https://faceBook.com" className="contact__scial-link">
+              <FaFacebookF/>
+            </a>
+            {/* <a href="https://faceBook.com" className="contact__scial-link">
+              <FaFacebookF/>
+            </a>
+            <a href="https://faceBook.com" className="contact__scial-link">
+              <FaFacebookF/>
+            </a> */}
+          </div>
 
         </div>
+
+        <form className='contact__from'>
+          <div className="from_input-group">
+
+            <div className="form__input-div">
+              <input 
+              type="text" 
+              placeholder='Your Name' 
+              className="form__control" 
+              />
+            </div>
+
+            <div className="form__input-div">
+              <input 
+              type="email" 
+              placeholder='Your Email' 
+              className="form__control" 
+              />
+            </div>
+
+            <div className="form__input-div">
+              <input 
+              type="text" 
+              placeholder='Your Subject' 
+              className="form__control" 
+              />
+            </div>
+
+          </div>
+
+          <div className="form__input-div">
+              <textarea 
+              placeholder='Your Message'
+              className="form__control textarea"
+              ></textarea>
+            </div>
+            <button className="button">
+              Send Message 
+              <span className="button__icon contact__button-icon">
+                <FiSend/>
+              </span>
+            </button>
+
+        </form>
+         
+
       </div>
 
     </section>
