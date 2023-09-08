@@ -247,7 +247,7 @@ import {
     {
       id: 1,
       img: Work1,
-      title: 'Photo Editing',
+      title: 'hedjkj',
       details: [
         {
           icon: <FiFileText />,
@@ -262,12 +262,12 @@ import {
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Photoshop',
+          desc: 'Ad',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'w',
         },
       ],
     },
@@ -295,7 +295,7 @@ import {
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'w',
         },
       ],
     },
@@ -303,7 +303,7 @@ import {
     {
       id: 3,
       img: Work3,
-      title: 'Video Editing',
+      title: '   ',
       details: [
         {
           icon: <FiFileText />,
@@ -318,12 +318,12 @@ import {
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Adobe Premium',
+          desc: 'A',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'www.dribble.com',
+          desc: 'er',
         },
       ],
     },

@@ -6,8 +6,10 @@ import "./project.css";
 const Project = () => {
   return (
     <section className="project__section">
-      <h2 className="section__title">My <span>Project</span></h2>
-      <div className="project__container">
+      <h2 className="section__title">
+        My <span>Project</span>
+      </h2>
+      <div className="project__container container grid">
         {project.map((item) =>{
           return <ProjectItem key={item.id} {...item}/>
         })}
