@@ -125,23 +125,23 @@ import {
   ];
   
   export const stats = [
-    {
-      id: 1,
-      no: '1+',
-      title: 'Years of <br /> Experience',
-    },
+    // {
+    //   id: 1,
+    //   no: '1+',
+    //   title: 'Years of <br /> Experience',
+    // },
   
-    {
-      id: 2,
-      no: '3+',
-      title: 'Completed <br /> Projects',
-    },
+    // {
+    //   id: 2,
+    //   no: '3+',
+    //   title: 'Completed <br /> Projects',
+    // },
   
-    {
-      id: 3,
-      no: '+',
-      title: 'Happy <br /> Customers',
-    },
+    // {
+    //   id: 3,
+    //   no: '+',
+    //   title: 'Happy <br /> Customers',
+    // },
   
     // {
     //   id: 4,
