@@ -10,7 +10,7 @@ import {
   } from 'react-icons/fa';
   import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
   
-  import Work1 from './assets/home1.jpg';
+  import Work1 from './assets/project-1.jpg';
   import Work2 from './assets/project-2.jpeg';
   import Work3 from './assets/project-3.jpg';
 
@@ -247,27 +247,27 @@ import {
     {
       id: 1,
       img: Work1,
-      title: 'hedjkj',
+      title: 'Personal Portfolio Website',
       details: [
         {
           icon: <FiFileText />,
-          title: 'Project : ',
-          desc: 'Photo',
+          title: 'Website : ',
+          desc: 'This is my personal responsive portfolio website',
         },
-        {
-          icon: <FiUser />,
-          title: 'Client : ',
-          desc: 'Dribble',
-        },
+        // {
+        //   icon: <FiUser />,
+        //   title: 'Client : ',
+        //   desc: 'My ',
+        // },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'Ad',
+          desc: 'React JS , Css',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'w',
+          desc: 'https://github.com/WAUdeshinduminaweerakoon/Personal-Portfolio-Website.git',
         },
       ],
     },
@@ -275,27 +275,27 @@ import {
     {
       id: 2,
       img: Work2,
-      title: 'Website Design',
+      title: 'CRUD',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Website',
+          desc: 'The CRUD stands for Create, Read/Retrieve, Update, and Delete',
         },
-        {
-          icon: <FiUser />,
-          title: 'Client : ',
-          desc: 'Dribble',
-        },
+        // {
+        //   icon: <FiUser />,
+        //   title: 'Client : ',
+        //   desc: 'Dribble',
+        // },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'React JS',
+          desc: ' Spring boot and React Js',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'w',
+          desc: 'https://github.com/WAUdeshinduminaweerakoon/CRUD',
         },
       ],
     },
@@ -303,27 +303,27 @@ import {
     {
       id: 3,
       img: Work3,
-      title: '   ',
+      title: '  Expense-Tracker-Application (ongoing)',
       details: [
         {
           icon: <FiFileText />,
           title: 'Project : ',
-          desc: 'Video',
+          desc: '  Expense-Tracker app allows you to track and categorize expenses. This is a MERN application.',
         },
-        {
-          icon: <FiUser />,
-          title: 'Client : ',
-          desc: 'Dribble',
-        },
+        // {
+        //   icon: <FiUser />,
+        //   title: 'Client : ',
+        //   desc: 'Dribble',
+        // },
         {
           icon: <FaCode />,
           title: 'Language : ',
-          desc: 'A',
+          desc: 'Express, React, Node',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'er',
+          desc: 'https://github.com/WAUdeshinduminaweerakoon/Expense-Tracker-Application',
         },
       ],
     },

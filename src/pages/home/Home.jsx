@@ -15,7 +15,7 @@ const Home = () => {
             <span>I'm Udesh Indumina</span> Software Engineer
           </h1>
           <p className='home__description'>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dignissimos adipisci optio quod, vitae neque dicta fugiat nisi quos cumque nesciunt nam necessitatibus hic placeat, ea et eligendi quibusdam doloribus?
+          A talented software engineering student who is Passionate about learning new things and able to deal with different types of people and work together as a team with good team spirit.
           </p>
           <Link to='/about'className='button'>
             More About me{''}
