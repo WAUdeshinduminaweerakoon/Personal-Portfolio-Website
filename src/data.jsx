@@ -8,7 +8,8 @@ import {
     FaCode,
     FaSchool,
   } from 'react-icons/fa';
-  import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+  // import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+  import { FiFileText, FiExternalLink } from 'react-icons/fi';
   
   import Work1 from './assets/project-1.jpg';
   import Work2 from './assets/project-2.jpeg';
