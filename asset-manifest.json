@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/css/main.79b09ba5.css",
-    "main.js": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/js/main.67c2e7af.js",
-    "static/js/787.88012170.chunk.js": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/js/787.88012170.chunk.js",
-    "static/media/project-1.jpg": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/media/project-1.f1dce591e93ae9e585b7.jpg",
-    "static/media/Udesh Indumina CV.pdf": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/media/Udesh Indumina CV.af3e25bca9de6f0ecafc.pdf",
-    "static/media/project-3.jpg": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/media/project-3.5c52cae21a1bbc274486.jpg",
-    "static/media/project-2.jpeg": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/media/project-2.276b7de699c35a76d542.jpeg",
-    "static/media/home1.jpg": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/media/home1.532d6405b10e08b51ae2.jpg",
-    "static/media/close.svg": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/media/close.5bec4f69e1bbfff50fdfacd4eaff052a.svg",
-    "index.html": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/index.html",
-    "main.79b09ba5.css.map": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/css/main.79b09ba5.css.map",
-    "main.67c2e7af.js.map": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/js/main.67c2e7af.js.map",
-    "787.88012170.chunk.js.map": "/WAUdeshinduminaweerakoon.github.io/Personal-Portfolio-Website/static/js/787.88012170.chunk.js.map"
+    "main.css": "/static/css/main.79b09ba5.css",
+    "main.js": "/static/js/main.32320031.js",
+    "static/js/787.88012170.chunk.js": "/static/js/787.88012170.chunk.js",
+    "static/media/project-1.jpg": "/static/media/project-1.f1dce591e93ae9e585b7.jpg",
+    "static/media/Udesh Indumina CV.pdf": "/static/media/Udesh Indumina CV.af3e25bca9de6f0ecafc.pdf",
+    "static/media/project-3.jpg": "/static/media/project-3.5c52cae21a1bbc274486.jpg",
+    "static/media/project-2.jpeg": "/static/media/project-2.276b7de699c35a76d542.jpeg",
+    "static/media/home1.jpg": "/static/media/home1.532d6405b10e08b51ae2.jpg",
+    "static/media/close.svg": "/static/media/close.5bec4f69e1bbfff50fdfacd4eaff052a.svg",
+    "index.html": "/index.html",
+    "main.79b09ba5.css.map": "/static/css/main.79b09ba5.css.map",
+    "main.32320031.js.map": "/static/js/main.32320031.js.map",
+    "787.88012170.chunk.js.map": "/static/js/787.88012170.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79b09ba5.css",
-    "static/js/main.67c2e7af.js"
+    "static/js/main.32320031.js"
   ]
 }
