@@ -4,6 +4,12 @@ import{
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
   FaFacebookF,
+  FaMediumM,
+  FaLinkedin,
+  FaGithub,
+  
+
+  
 } from 'react-icons/fa';
 
 import {FiSend} from 'react-icons/fi';
@@ -17,10 +23,10 @@ const Contact = () => {
       </h2>
       <div className="contact__container container grid">
         <div className="contact__data">
-          <h3 className="contact__tital">Don't be Shy !</h3>
+          <h3 className="contact__tital">I am</h3>
           <p className="contact__description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur voluptate quam ipsa in deserunt sapiente officiis, nulla veniam at, necessitatibus doloremque! Delectus hic esse eaque labore eius deleniti temporibus ipsam!
-          </p>
+          A talented software engineering student who is Passionate about learning new things and able to deal with different types of people and work together as a team with good team spirit. I always wanted to shape my career as well as my future by fulfilling the corporate needs of the company with my education and contributing positively to the industry and society.
+           </p>
 
           <div className="contact__info">
             <div className="info__item">
@@ -42,15 +48,21 @@ const Contact = () => {
             </div>
           </div>
           <div className='contact__socials'>
+
+            
+            <a href="https://www.linkedin.com/in/udesh-indumina-a99032252/" className="contact__social-link">
+              <FaLinkedin/>
+            </a>
+
             <a href="https://faceBook.com" className="contact__social-link">
               <FaFacebookF/>
             </a>
-            {/* <a href="https://faceBook.com" className="contact__scial-link">
-              <FaFacebookF/>
+            <a href="https://github.com/WAUdeshinduminaweerakoon" className="contact__social-link">
+              <FaGithub/>
             </a>
-            <a href="https://faceBook.com" className="contact__scial-link">
-              <FaFacebookF/>
-            </a> */}
+            <a href="https://medium.com/@udeshidumina" className="contact__social-link">
+              <FaMediumM/>
+            </a>
           </div>
 
         </div>
